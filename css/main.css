@@ -1,0 +1,179 @@
+/* ===== ARTICLE DETAIL ===== */
+.article-detail {
+  background: #f8f9fa;
+  padding: 40px 15px;
+}
+
+.article-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+/* ===== TITLE ===== */
+.article-container h1 {
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #1f2937;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.article-container h2 {
+  font-size: 1.55rem;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  color: #14532d;
+  border-left: 5px solid #fe7201;
+  padding-left: 12px;
+  font-weight: 700;
+}
+
+.article-container h3 {
+  font-size: 1.2rem;
+  margin-top: 25px;
+  margin-bottom: 12px;
+  color: #1f2937;
+  font-weight: 600;
+}
+
+/* ===== PARAGRAPH ===== */
+.article-container p {
+  font-size: 17px;
+  line-height: 1.9;
+  color: #374151;
+  margin-bottom: 18px;
+  text-align: justify;
+}
+
+/* ===== LIST ===== */
+.article-container ul {
+  margin: 15px 0 20px 25px;
+}
+
+.article-container li {
+  margin-bottom: 10px;
+  line-height: 1.8;
+  color: #374151;
+  font-size: 16px;
+}
+
+/* ===== TABLE ===== */
+.table-responsive {
+  overflow-x: auto;
+  margin: 25px 0;
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.comparison-table th {
+  background: #fe7201;
+  color: #fff;
+  padding: 14px;
+  text-align: center;
+  font-weight: 600;
+  border: 1px solid #d1d5db;
+}
+
+.comparison-table td {
+  padding: 14px;
+  border: 1px solid #d1d5db;
+  line-height: 1.7;
+}
+
+.comparison-table tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+.comparison-table tbody tr:hover {
+  background: #ecfdf5;
+}
+
+/* ===== CONTACT BOX ===== */
+.contact-box {
+  margin-top: 35px;
+  background: #fe7201;
+  color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.contact-box p {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.contact-box p:last-child {
+  margin-bottom: 0;
+}
+
+/* ===== IMAGE ===== */
+.article-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 25px 0;
+  display: block;
+}
+
+/* ===== BLOCKQUOTE ===== */
+.article-container blockquote {
+  background: #f0fdf4;
+  border-left: 5px solid #fe7201;
+  padding: 15px 20px;
+  margin: 20px 0;
+  font-style: italic;
+  color: #374151;
+}
+
+/* ===== HIGHLIGHT ===== */
+.highlight-box {
+  background: #ecfdf5;
+  border: 1px solid #fe7201;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 25px 0;
+}
+
+.highlight-box p:last-child {
+  margin-bottom: 0;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .article-detail {
+    padding: 20px 10px;
+  }
+
+  .article-container {
+    padding: 25px 20px;
+  }
+
+  .article-container h1 {
+    font-size: 1.7rem;
+  }
+
+  .article-container h2 {
+    font-size: 1.35rem;
+  }
+
+  .article-container p,
+  .article-container li {
+    font-size: 16px;
+  }
+
+  .comparison-table th,
+  .comparison-table td {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
